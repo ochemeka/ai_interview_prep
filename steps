@@ -1,0 +1,109 @@
+Sir Melvin@SIR-MELVIN MINGW64 ~/Desktop/Real time AI intermock_interview
+$ npx create-next-app@latest ./
+Need to install the following packages:
+create-next-app@15.3.0
+Ok to proceed? (y) y
+
+select Yes
+√ Would you like to use TypeScript? ... / Yes
+√ Would you like to use ESLint? ... / Yes
+√ Would you like to use Tailwind CSS? ... / Yes
+√ Would you like your code inside a `src/` directory? ... No/
+√ Would you like to use App Router? (recommended) ... / Yes
+√ Would you like to use Turbopack for `next dev`? ... /
+√ Would you like to customize the import alias (`@/*` by dt)? ...No /
+Creating a new Next.js app in C:\Users\Sir Melvin\Desktop\
+time AI interview\mock_interview.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+- @tailwindcss/postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+- @eslint/eslintrc
+
+added 316 packages, and audited 317 packages in 14m
+
+130 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Success! Created mock_interview at C:\Users\Sir Melvin\Desal time AI interview\mock_interview
+
+Sir Melvin@SIR-MELVIN MINGW64 ~/Desktop/Real time AI interck_interview
+$ npx shadcn@latest init
+Need to install the following packages:
+shadcn@2.4.0
+Ok to proceed? (y) y
+
+✔ Preflight checks.
+✔ Verifying framework. Found Next.js.
+✔ Validating Tailwind CSS config. Found v4.
+✔ Validating import alias.
+√ Which color would you like to use as the base color? » N
+✔ Writing components.json.
+✔ Checking registry.
+✔ Updating CSS variables in app\globals.css
+  Installing dependencies.
+
+It looks like you are using React 19. 
+Some packages may fail to install due to peer dependency in npm (see https://ui.shadcn.com/react-19).
+
+√ How would you like to proceed? » Use --legacy-peer-deps
+✔ Installing dependencies.
+✔ Created 1 file:
+  - lib\utils.ts
+
+Success! Project initialization completed.
+You may now add components.
+
+Sir Melvin@SIR-MELVIN MINGW64 ~/Desktop/Real time AI interck_interview
+$ npm run dev
+
+> mock_interview@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.3.0 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.137:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemgarding usage.
+This information is used to shape Next.js' roadmap and pri
+You can learn more, including how to opt-out if you'd not ogram, g the following URL:
+by visiting the following URL:
+ in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+Slow filesystem detected. If C:\Users\Sir Melvin\Desktop\Rime AI interview\mock_interview\.next is a network drive, der moving it to a local folder. If you have an antivirus ed, consider excluding your project directory.
+ ✓ Ready in 25.9s
+ ○ Compiling / ...
+ ✓ Compiled / in 31.5s
+ ✓ Compiled / in 31.5s
+ ✓ Compiled / in 31.5s
+ GET / 200 in 35157ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 6.1s
+ ⨯ A conflicting public file and page file was found for path /favicon.ico https://nextjs.org/docs/messages/conflicting-public-file-page      
+ GET /favicon.ico?favicon.eb09710d.ico 500 in 7816ms
+ GET / 200 in 307ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 3.4s
+ GET /favicon.ico?favicon.eb09710d.ico 200 in 4719ms
+
